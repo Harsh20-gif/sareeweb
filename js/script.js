@@ -2,7 +2,7 @@ const CONFIG = {
   brandName: 'Braja Bloom',
   tagline: 'Little Treasures, Rooted in Braj.',
   contactEmail: '',
-  whatsappNumber: '', // Add the business number with country code, digits only.
+  whatsappNumber: '+917505150687', // Add the business number with country code, digits only.
   instagramUrl: '#instagram-profile',
   currency: 'INR',
   demoMode: true,
