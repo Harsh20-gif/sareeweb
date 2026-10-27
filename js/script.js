@@ -74,7 +74,7 @@ function renderCategories() {
   const categoryGrid = document.querySelector('[data-category-grid]');
   categoryGrid.innerHTML = CATEGORIES.map(category => `
     <a class="category-card" href="#shop" data-category-link="${category.id}" aria-label="Browse ${category.title}">
-      <span class="category-card__image"><img src="${category.image}" alt="${category.alt}" loading="lazy" data-image-fallback></span>
+      <div class="category-card__image"><img src="${category.image}" alt="${category.alt}" loading="lazy" data-image-fallback></div>
       <h3>${category.title}</h3><p>${category.description}</p>
       <span class="category-card__action">Explore collection <span aria-hidden="true">→</span></span>
     </a>`).join('');
